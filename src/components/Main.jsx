@@ -1,12 +1,13 @@
 import './Main.css';
+import Header from './header/Header';
 
 function Main() {
   return (
-    <header className="main">
+    <div className="main">
         <div className="main__container">
-            
+            <Header />
         </div>
-    </header>
+    </div>
   );
 }
 

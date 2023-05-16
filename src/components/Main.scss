@@ -3,4 +3,9 @@
     height: auto;
     display: flex;
     justify-content: center;
+    &__container{
+        width: 1200px;
+        height: 100%;
+        border: 1px solid #000;
+    }
 }
