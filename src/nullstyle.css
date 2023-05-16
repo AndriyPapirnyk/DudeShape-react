@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,500italic,700,700italic');
+
 *,
 *::before,
-*::after {box-sizing: border-box; color: #000;}
+*::after {box-sizing: border-box; font-family: 'DM Sans'; color: #000;}
 
 ul{list-style: none;display: flex;}
 
