@@ -1,6 +1,7 @@
 import './Main.css';
 import Header from './header/Header';
 import Home from './home/Home';
+import Companies from './companies/Companies';
 
 function Main() {
   return (
@@ -8,6 +9,7 @@ function Main() {
         <div className="main__container">
             <Header />
             <Home />
+            <Companies />
         </div>
     </div>
   );

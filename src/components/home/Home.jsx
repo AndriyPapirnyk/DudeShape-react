@@ -3,7 +3,7 @@ import chairImg from './img/home__chair.jpg'
 
 function Home() {
   return (
-    <div className="home">
+    <section className="home">
         <img src={chairImg} alt="" />
         <div className="home__main">
             <div>
@@ -12,7 +12,7 @@ function Home() {
             <button>Explore More</button>
             </div>
         </div>
-    </div>
+    </section>
   );
 }
 
