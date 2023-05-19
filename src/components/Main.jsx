@@ -2,6 +2,7 @@ import './Main.css';
 import Header from './header/Header';
 import Home from './home/Home';
 import Companies from './companies/Companies';
+import About from './about/About';
 
 function Main() {
   return (
@@ -10,6 +11,7 @@ function Main() {
             <Header />
             <Home />
             <Companies />
+            <About />
         </div>
     </div>
   );

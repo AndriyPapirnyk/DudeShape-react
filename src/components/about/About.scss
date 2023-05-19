@@ -1,0 +1,52 @@
+.about{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 70px 0;
+    img{
+        width: 630px;
+    }
+    &__main{
+        display: flex;
+        flex-direction: column;
+        h1{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 42px;        
+            color: #244D4D;
+        }
+        p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 25px;            
+            color: #444444;
+            margin-top: 20px;
+        }
+        &-pros{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 40px;
+            .item{
+                display: flex;
+                align-items: flex-start;
+                gap: 28px;
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+                h1{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 18px;
+                    margin-top: 14px;
+                }
+            }
+        }
+    }
+}
