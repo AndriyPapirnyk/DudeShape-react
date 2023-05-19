@@ -4,6 +4,7 @@ import Home from './home/Home';
 import Companies from './companies/Companies';
 import About from './about/About';
 import Popuplar from './popular/Popular';
+import Furniture from './furniture/Furniture';
 
 function Main() {
   return (
@@ -14,6 +15,7 @@ function Main() {
             <Companies />
             <About />
             <Popuplar />
+            <Furniture />
         </div>
     </div>
   );
