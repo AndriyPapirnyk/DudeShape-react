@@ -43,6 +43,7 @@
 .card__info .row div img {
   width: 26px;
   height: 26px;
+  transform: rotate(0) !important;
 }
 .card__info .row button {
   width: 80px;
