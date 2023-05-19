@@ -3,6 +3,7 @@ import Header from './header/Header';
 import Home from './home/Home';
 import Companies from './companies/Companies';
 import About from './about/About';
+import Popuplar from './popular/Popular';
 
 function Main() {
   return (
@@ -12,6 +13,7 @@ function Main() {
             <Home />
             <Companies />
             <About />
+            <Popuplar />
         </div>
     </div>
   );
