@@ -1,7 +1,24 @@
 import './Furniture.css';
-import mainImg from './img/main.png'
+import Item from './item/Item';
+import mainImg from './img/main.png';
+
+import item1Img from '../furniture/item/img/g1.png';
+import item2Img from '../furniture/item/img/g2.png';
+import item3Img from '../furniture/item/img/g3.png';
+import item4Img from '../furniture/item/img/g4.png';
+import item5Img from '../furniture/item/img/g5.png';
+import item6Img from '../furniture/item/img/g6.png';
 
 //
+
+let itemsList = [
+    {name: 'Living Room', img: item1Img},
+    {name: 'Kitchen', img: item2Img},
+    {name: 'Dining Room', img: item3Img},
+    {name: 'Office', img: item4Img},
+    {name: 'Bed Room', img: item5Img},
+    {name: 'Hallway', img: item6Img},
+]
 
 function Furniture() {
   return (
@@ -17,30 +34,7 @@ function Furniture() {
         <div className="furniture__main">
             <img src={mainImg} alt="" />
             <div className="furniture__main-options">
-                <div className="item">
-                    <img src="" alt="" />
-                    <p>Living Room</p>
-                </div>
-                <div className="item">
-                    <img src="" alt="" />
-                    <p>Kitchen</p>
-                </div>
-                <div className="item">
-                    <img src="" alt="" />
-                    <p>Dining Room</p>
-                </div>
-                <div className="item">
-                    <img src="" alt="" />
-                    <p>Office</p>
-                </div>
-                <div className="item">
-                    <img src="" alt="" />
-                    <p>Bed Room</p>
-                </div>
-                <div className="item">
-                    <img src="" alt="" />
-                    <p>Hallway</p>
-                </div>
+               {itemsList.map(item => <Item key={item.name} name={item.name} img={item.img} />)}
             </div>
         </div>
     </section>
