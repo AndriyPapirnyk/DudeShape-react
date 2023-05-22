@@ -5,6 +5,7 @@ import Companies from './companies/Companies';
 import About from './about/About';
 import Popuplar from './popular/Popular';
 import Furniture from './furniture/Furniture';
+import Customers from './customers/Customers';
 
 function Main() {
   return (
@@ -16,6 +17,7 @@ function Main() {
             <About />
             <Popuplar />
             <Furniture />
+            <Customers />
         </div>
     </div>
   );

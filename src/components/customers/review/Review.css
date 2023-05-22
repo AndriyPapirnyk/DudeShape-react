@@ -1,0 +1,39 @@
+.review {
+  display: flex;
+  gap: 10px;
+}
+.review__img {
+  width: 50px;
+  height: 50px;
+}
+.review__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+}
+.review__info h2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.review__info div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.review__info div img {
+  width: 16px;
+  height: 16px;
+}
+.review__info div p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #000000;
+}

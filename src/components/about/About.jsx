@@ -14,21 +14,21 @@ function About() {
             <h1>About Us</h1>
             <p>All of our furniture uses the best materials and <br /> choices for our customers.All of our furniture <br /> uses the best materials </p>
             <div className="about__main-pros">
-                <div className="item">
+                <div className="about__item">
                     <img src={shieldImg} alt="" />
                     <div>
                         <h1>Best Quality</h1>
                         <p>All of our furniture uses the best <br /> materials and choices</p>
                     </div>
                 </div>
-                <div className="item">
+                <div className="about__item">
                     <img src={checkImg} alt="" />
                     <div>
                         <h1>100% Secure</h1>
                         <p>All of our furniture uses the best <br /> materials and choices</p>
                     </div>
                 </div>
-                <div className="item">
+                <div className="about__item">
                     <img src={busImg} alt="" />
                     <div>
                         <h1>Free Shpping</h1>
