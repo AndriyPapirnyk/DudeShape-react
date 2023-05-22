@@ -1,6 +1,20 @@
 import './Popular.css';
 import Card from './card/Card';
-import nextImg from './img/next-prev.png'
+import nextImg from './img/next-prev.png';
+
+//
+
+import furniture1 from '../popular/card/img/furniture1.png';
+import furniture2 from '../popular/card/img/furniture2.png';
+import furniture3 from '../popular/card/img/furniture3.png';
+
+
+
+let popularList = [
+  {name: 'White Swan Chair', price: '40$', img: furniture1},
+  {name: 'Brown Long Table', price: '120$', img: furniture2},
+  {name: 'Milky Soft Sofa', price: '230$', img: furniture3},
+]
 
 function Popuplar() {
   return (
@@ -14,9 +28,7 @@ function Popuplar() {
         </div>
       </div>
       <div className="popular__list">
-        <Card />
-        <Card />
-        <Card />
+        {popularList.map(item => <Card key={item.name} name={item.name} price={item.price} img={item.img} />)}
       </div>
     </section>
   );
