@@ -4,4 +4,55 @@
   display: flex;
   flex-direction: column;
   padding: 70px 0;
+  gap: 80px;
+}
+.furniture__main {
+  width: 100%;
+  display: flex;
+}
+.furniture__main img {
+  width: 580px;
+}
+.furniture__main-options {
+  border: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 0 135px;
+}
+.furniture__heading {
+  width: 100%;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.furniture__heading h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #242424;
+}
+.furniture__heading div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.furniture__heading div p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 27px;
+  color: #919090;
+  transition: 0.3s;
+}
+.furniture__heading div p:hover {
+  transition: 0.3s;
+  color: #154444;
+  text-decoration: underline;
 }

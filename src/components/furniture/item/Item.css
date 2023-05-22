@@ -1,0 +1,22 @@
+.item {
+  border: 1.5px solid #D9DCE5;
+  width: 222px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.item img {
+  width: 24px;
+  height: 24px;
+}
+.item p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #808080;
+}
