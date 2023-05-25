@@ -12,14 +12,14 @@ function Main() {
   return (
     <div className="main">
         <div className="main__container">
-            {/* <Header /> */}
-            {/* <Home /> */}
+            <Header />
+            <Home />
             <Companies />
-            {/* <About />
+            <About />
             <Popuplar />
-            <Furniture />
-            <Customers /> 
-            <Subscription /> */}
+            {/* <Furniture /> */}
+            {/* <Customers />  */}
+            {/* <Subscription /> */}
         </div>
     </div>
   );

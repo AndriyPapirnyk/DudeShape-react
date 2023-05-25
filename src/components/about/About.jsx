@@ -9,10 +9,10 @@ import checkImg from './img/check.png';
 function About() {
   return (
     <section className='about'>
-        <img src={mainImg} alt="" />
+        <img className='about__img' src={mainImg} alt="" />
         <div className="about__main">
             <h1>About Us</h1>
-            <p>All of our furniture uses the best materials and <br /> choices for our customers.All of our furniture <br /> uses the best materials </p>
+            <p className='about__main-p'>All of our furniture uses the best materials and <br /> choices for our customers.All of our furniture <br /> uses the best materials </p>
             <div className="about__main-pros">
                 <div className="about__item">
                     <img src={shieldImg} alt="" />

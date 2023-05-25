@@ -6,12 +6,40 @@
   align-items: center;
   padding: 0 0 70px 0;
 }
-.about img {
+.about__img {
   width: 630px;
+}
+@media screen and (max-width: 1095px) {
+  .about__img {
+    width: 530px;
+  }
+}
+@media screen and (max-width: 1005px) {
+  .about__img {
+    display: none;
+  }
 }
 .about__main {
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 1005px) {
+  .about__main {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .about__main-p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about__main h1 {
+    font-size: 28px !important;
+  }
+  .about__main p {
+    font-size: 16px !important;
+  }
 }
 .about__main h1 {
   font-style: normal;
