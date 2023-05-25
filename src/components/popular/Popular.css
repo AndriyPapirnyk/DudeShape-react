@@ -7,8 +7,14 @@
 }
 .popular__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 80px;
+}
+@media screen and (max-width: 1205px) {
+  .popular__list {
+    justify-content: center;
+  }
 }
 .popular h1 {
   font-family: "Montserrat";
@@ -18,11 +24,26 @@
   line-height: 52px;
   color: #242424;
 }
+@media screen and (max-width: 945px) {
+  .popular h1 {
+    text-align: center;
+  }
+}
 .popular .row {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media screen and (max-width: 945px) {
+  .popular .row {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .popular .row div {
+    margin-top: 30px;
+  }
 }
 .popular .row p {
   font-family: "DM Sans";
