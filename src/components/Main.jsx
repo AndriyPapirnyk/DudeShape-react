@@ -13,13 +13,13 @@ function Main() {
     <div className="main">
         <div className="main__container">
             {/* <Header /> */}
-            <Home />
-            {/* <Companies />
-            <About />
+            {/* <Home /> */}
+            <Companies />
+            {/* <About />
             <Popuplar />
             <Furniture />
-            <Customers /> */}
-            {/* <Subscription /> */}
+            <Customers /> 
+            <Subscription /> */}
         </div>
     </div>
   );

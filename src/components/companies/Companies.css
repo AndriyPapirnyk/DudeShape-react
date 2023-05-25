@@ -14,16 +14,28 @@
   font-size: 32px;
   line-height: 42px;
   color: #244D4D;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .companies h1 {
+    font-size: 24px;
+    margin: 0 10px;
+  }
 }
 .companies__list {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  padding: 0 60px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .companies__list img {
   width: 100px;
+}
+@media screen and (max-width: 1000px) {
+  .companies__list img {
+    margin: 20px 35px;
+  }
 }
 .companies__list img:last-child {
   width: 68px;
