@@ -26,6 +26,11 @@
 .header ul {
   gap: 70px;
 }
+@media screen and (max-width: 915px) {
+  .header ul {
+    display: none;
+  }
+}
 .header ul li {
   color: #161616;
   font-family: "DM Sans";

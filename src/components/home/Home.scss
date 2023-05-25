@@ -9,6 +9,9 @@
     background-color: #154444;
     img{
         height: 100%;
+        @media screen and (max-width: 1000px) {
+            display: none;
+        }
     }
     &__main{
         width: 100%;
@@ -18,6 +21,34 @@
             display: flex;
             flex-direction: column;
             gap: 35px;
+            @media screen and (max-width: 1000px) {
+                align-items: center;
+                text-align: center;
+            }
+            @media screen and (max-width: 600px) {
+                h1{
+                    font-size: 46px;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+            @media screen and (max-width: 490px) {
+                h1{
+                    font-size: 36px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+            @media screen and (max-width: 390px) {
+                h1{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 13px;
+                }
+            }
         }
         h1{
             font-family: 'Montserrat';

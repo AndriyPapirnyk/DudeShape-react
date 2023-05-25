@@ -25,6 +25,9 @@
     }
     ul{
         gap: 70px;
+        @media screen and (max-width: 915px) {
+            display: none;
+        }
         li{
             color: #161616;
             font-family: 'DM Sans';
