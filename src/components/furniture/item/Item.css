@@ -8,6 +8,11 @@
   flex-direction: column;
   gap: 10px;
 }
+@media screen and (max-width: 1079px) {
+  .item {
+    margin: 20px;
+  }
+}
 .item img {
   width: 24px;
   height: 24px;

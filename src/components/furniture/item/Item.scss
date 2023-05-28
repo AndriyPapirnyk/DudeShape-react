@@ -7,6 +7,9 @@
     align-items: center;
     flex-direction: column;
     gap: 10px;
+    @media screen and (max-width: 1079px) {
+        margin: 20px;
+    }
     img{
         width: 24px;
         height: 24px;

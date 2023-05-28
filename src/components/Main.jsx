@@ -4,7 +4,7 @@ import Home from './home/Home';
 import Companies from './companies/Companies';
 import About from './about/About';
 import Popuplar from './popular/Popular';
-// import Furniture from './furniture/Furniture';
+import Furniture from './furniture/Furniture';
 // import Customers from './customers/Customers';
 // import Subscription from './subsription/Subscription';
 
@@ -17,7 +17,7 @@ function Main() {
             <Companies />
             <About />
             <Popuplar />
-            {/* <Furniture /> */}
+            <Furniture />
             {/* <Customers />  */}
             {/* <Subscription /> */}
         </div>
