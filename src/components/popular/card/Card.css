@@ -9,6 +9,11 @@
     margin: 20px;
   }
 }
+@media screen and (max-width: 450px) {
+  .card {
+    width: 100%;
+  }
+}
 .card img {
   width: 100%;
   height: 245px;
@@ -41,6 +46,7 @@
   font-size: 20px;
   line-height: 27px;
   color: #242424;
+  margin: 0 !important;
 }
 .card__info .row div {
   display: flex;
