@@ -5,7 +5,7 @@ import Companies from './companies/Companies';
 import About from './about/About';
 import Popuplar from './popular/Popular';
 import Furniture from './furniture/Furniture';
-// import Customers from './customers/Customers';
+import Customers from './customers/Customers';
 // import Subscription from './subsription/Subscription';
 
 function Main() {
@@ -18,7 +18,7 @@ function Main() {
             <About />
             <Popuplar />
             <Furniture />
-            {/* <Customers />  */}
+            <Customers /> 
             {/* <Subscription /> */}
         </div>
     </div>

@@ -8,11 +8,27 @@
     border: 1px solid #000;
     &__img{
         width: 565px;
+        @media screen and (max-width: 1160px) {
+            width: 465px;
+        }
+        @media screen and (max-width: 1060px) {
+            width: 385px;
+        }
+        @media screen and (max-width: 1005px) {
+            display: none;
+        }
     }
     &__text{
         display: flex;
         flex-direction: column;
         gap: 40px;
+        @media screen and (max-width: 1005px) {
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
         h1{
             font-family: 'Montserrat';
             font-style: normal;
@@ -20,6 +36,9 @@
             font-size: 32px;
             line-height: 48px;
             color: #242424;
+            @media screen and (max-width: 600px) {
+                font-size: 28px;
+            }
         }
         p{
             font-family: 'DM Sans';
@@ -28,6 +47,9 @@
             font-size: 20px;
             line-height: 27px;
             color: #383738;
+            @media screen and (max-width: 600px) {
+                font-size: 16px;
+            }
         }
     }
 }

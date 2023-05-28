@@ -10,10 +10,34 @@
 .customers__img {
   width: 565px;
 }
+@media screen and (max-width: 1160px) {
+  .customers__img {
+    width: 465px;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .customers__img {
+    width: 385px;
+  }
+}
+@media screen and (max-width: 1005px) {
+  .customers__img {
+    display: none;
+  }
+}
 .customers__text {
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+@media screen and (max-width: 1005px) {
+  .customers__text {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 .customers__text h1 {
   font-family: "Montserrat";
@@ -23,6 +47,11 @@
   line-height: 48px;
   color: #242424;
 }
+@media screen and (max-width: 600px) {
+  .customers__text h1 {
+    font-size: 28px;
+  }
+}
 .customers__text p {
   font-family: "DM Sans";
   font-style: normal;
@@ -30,4 +59,9 @@
   font-size: 20px;
   line-height: 27px;
   color: #383738;
+}
+@media screen and (max-width: 600px) {
+  .customers__text p {
+    font-size: 16px;
+  }
 }
