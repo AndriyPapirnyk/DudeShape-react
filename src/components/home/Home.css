@@ -48,8 +48,12 @@
   }
 }
 @media screen and (max-width: 390px) {
+  .home__main div {
+    gap: 30px;
+  }
   .home__main div h1 {
     font-size: 30px;
+    line-height: 45px;
   }
   .home__main div p {
     font-size: 13px;

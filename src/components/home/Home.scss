@@ -42,8 +42,10 @@
                 }
             }
             @media screen and (max-width: 390px) {
+                gap: 30px;
                 h1{
                     font-size: 30px;
+                    line-height: 45px;
                 }
                 p{
                     font-size: 13px;
