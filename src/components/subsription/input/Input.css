@@ -7,6 +7,11 @@
   justify-content: space-between;
   padding: 0 18px;
 }
+@media screen and (max-width: 540px) {
+  .input {
+    width: 100%;
+  }
+}
 .input button {
   background-color: #305F64;
   height: calc(100% - 14px);
@@ -27,6 +32,11 @@
   width: 250px;
   outline: none;
   border: none;
+}
+@media screen and (max-width: 540px) {
+  .input div input {
+    width: 150px;
+  }
 }
 .input div input::placeholder {
   font-family: "DM Sans";

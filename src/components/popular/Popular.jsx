@@ -21,7 +21,7 @@ function Popuplar() {
     <section className='popular'>
       <h1>Our Popular Furniture</h1>
       <div className="popular__row">
-        <p>All of our furniture uses the best materials and choices for our customers.All of our <br /> furniture uses the best materials and choices for our customers.</p>
+        <p>All of our furniture uses the best materials and choices for our customers.</p>
         <div className='popular__row-options'>
           <img src={nextImg} alt="" />
           <img src={nextImg} alt="" />
