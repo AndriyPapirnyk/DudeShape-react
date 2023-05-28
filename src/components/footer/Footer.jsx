@@ -24,6 +24,15 @@ function Footer() {
           </div>
 
           <div className='footer__main-item'>
+            <h2>Subscribe</h2>
+            <p>Subscribe to get the latest <br /> news from us</p>
+            <div className='footer__main-item__input'>
+              <input type="email" placeholder='Email Address'/>
+              <img src={arrowImg} alt="" />
+            </div>
+          </div>
+
+          <div className='footer__main-item'>
             <h2>Take a tour</h2>
             <p>Features</p>
             <p>Pricing</p>
@@ -37,15 +46,6 @@ function Footer() {
             <p>Blog</p>
             <p>Media</p>
             <p>Contact Us</p>
-          </div>
-
-          <div className='footer__main-item'>
-            <h2>Subscribe</h2>
-            <p>Subscribe to get the latest <br /> news from us</p>
-            <div className='footer__main-item__input'>
-              <input type="email" placeholder='Email Address'/>
-              <img src={arrowImg} alt="" />
-            </div>
           </div>
 
         </div>
